@@ -1,0 +1,48 @@
+AME (Analysis of Motif Enrichment): Compiled on Apr  5 2016 at 15:50:22
+------------------------------
+Copyright (c) Robert McLeay <r.mcleay@imb.uq.edu.au> & Timothy Bailey <t.bailey@imb.uq.edu.au>, 2009.
+
+Command line
+ame --verbose 1 --oc Positive_Sets/logP20/Ame/ame_posSeq_20_5a --control Positive_Sets/logP20/Sampling/Shuffled/shuffled_posSeq_20_5a.fa --bgformat 1 --scoring avg --method ranksum --pvalue-report-threshold 0.05 Positive_Sets/logP20/Sampling/posSeq_20_5a.fa PWMs/HOCOMOCOv10_HUMAN_mono_meme_format.meme
+
+Not in partition maximization mode. Fixing partition at the number of primary sequences (218).
+
+Threshold p-value for reporting results: 0.05
+Motif p-values are corrected by #Motifs * #ThresholdsTested - (641 * 1 = 641)
+
+1. Ranksum p-values of motif EGR1_HUMAN.H10MO.A top 218 seqs (left,right,twotailed): 1 4.068e-11 8.137e-11 U-value: 1.521e+04 (Corrected p-values: 1 2.608e-08 2.608e-08)
+2. Ranksum p-values of motif SP1_HUMAN.H10MO.S top 218 seqs (left,right,twotailed): 1 1.105e-10 2.209e-10 U-value: 1.541e+04 (Corrected p-values: 1 7.081e-08 7.081e-08)
+3. Ranksum p-values of motif SP1_HUMAN.H10MO.C top 218 seqs (left,right,twotailed): 1 6.862e-10 1.372e-09 U-value: 1.579e+04 (Corrected p-values: 1 4.398e-07 4.398e-07)
+4. Ranksum p-values of motif SP3_HUMAN.H10MO.B top 218 seqs (left,right,twotailed): 1 1.067e-09 2.134e-09 U-value: 1.588e+04 (Corrected p-values: 1 6.84e-07 6.84e-07)
+5. Ranksum p-values of motif SP4_HUMAN.H10MO.D top 218 seqs (left,right,twotailed): 1 3.708e-09 7.415e-09 U-value: 1.616e+04 (Corrected p-values: 1 2.377e-06 2.377e-06)
+6. Ranksum p-values of motif KLF4_HUMAN.H10MO.A top 218 seqs (left,right,twotailed): 1 7.452e-09 1.49e-08 U-value: 1.631e+04 (Corrected p-values: 1 4.777e-06 4.777e-06)
+7. Ranksum p-values of motif WT1_HUMAN.H10MO.D top 218 seqs (left,right,twotailed): 1 9.841e-09 1.968e-08 U-value: 1.638e+04 (Corrected p-values: 1 6.308e-06 6.308e-06)
+8. Ranksum p-values of motif TFDP1_HUMAN.H10MO.D top 218 seqs (left,right,twotailed): 1 1.137e-08 2.275e-08 U-value: 1.641e+04 (Corrected p-values: 1 7.291e-06 7.291e-06)
+9. Ranksum p-values of motif MAZ_HUMAN.H10MO.A top 218 seqs (left,right,twotailed): 1 1.252e-08 2.504e-08 U-value: 1.643e+04 (Corrected p-values: 1 8.027e-06 8.027e-06)
+10. Ranksum p-values of motif SP2_HUMAN.H10MO.C top 218 seqs (left,right,twotailed): 1 1.875e-08 3.749e-08 U-value: 1.652e+04 (Corrected p-values: 1 1.202e-05 1.202e-05)
+11. Ranksum p-values of motif KLF14_HUMAN.H10MO.D top 218 seqs (left,right,twotailed): 1 4.319e-08 8.637e-08 U-value: 1.672e+04 (Corrected p-values: 1 2.768e-05 2.768e-05)
+12. Ranksum p-values of motif TBX15_HUMAN.H10MO.D top 218 seqs (left,right,twotailed): 1 5.598e-08 1.12e-07 U-value: 1.678e+04 (Corrected p-values: 1 3.588e-05 3.588e-05)
+13. Ranksum p-values of motif ELF2_HUMAN.H10MO.C top 218 seqs (left,right,twotailed): 1 2.641e-07 5.282e-07 U-value: 1.716e+04 (Corrected p-values: 1 0.0001693 0.0001693)
+14. Ranksum p-values of motif ZFX_HUMAN.H10MO.C top 218 seqs (left,right,twotailed): 1 5.111e-07 1.022e-06 U-value: 1.733e+04 (Corrected p-values: 1 0.0003276 0.0003276)
+15. Ranksum p-values of motif KLF16_HUMAN.H10MO.D top 218 seqs (left,right,twotailed): 1 9.589e-07 1.918e-06 U-value: 1.75e+04 (Corrected p-values: 1 0.0006145 0.0006145)
+16. Ranksum p-values of motif BHE40_HUMAN.H10MO.A top 218 seqs (left,right,twotailed): 1 9.845e-07 1.969e-06 U-value: 1.75e+04 (Corrected p-values: 1 0.0006309 0.0006309)
+17. Ranksum p-values of motif TBX1_HUMAN.H10MO.D top 218 seqs (left,right,twotailed): 1 2.151e-06 4.303e-06 U-value: 1.772e+04 (Corrected p-values: 1 0.001378 0.001378)
+18. Ranksum p-values of motif IRX2_HUMAN.H10MO.D top 218 seqs (left,right,twotailed): 1 2.885e-06 5.771e-06 U-value: 1.78e+04 (Corrected p-values: 1 0.001848 0.001848)
+19. Ranksum p-values of motif JUNB_HUMAN.H10MO.C top 218 seqs (left,right,twotailed): 1 3.168e-06 6.336e-06 U-value: 1.782e+04 (Corrected p-values: 1 0.002029 0.002029)
+20. Ranksum p-values of motif ARNT2_HUMAN.H10MO.D top 218 seqs (left,right,twotailed): 1 3.465e-06 6.929e-06 U-value: 1.785e+04 (Corrected p-values: 1 0.002218 0.002218)
+21. Ranksum p-values of motif EGR1_HUMAN.H10MO.S top 218 seqs (left,right,twotailed): 1 3.939e-06 7.878e-06 U-value: 1.788e+04 (Corrected p-values: 1 0.002522 0.002522)
+22. Ranksum p-values of motif ZN219_HUMAN.H10MO.D top 218 seqs (left,right,twotailed): 1 4.836e-06 9.671e-06 U-value: 1.794e+04 (Corrected p-values: 1 0.003095 0.003095)
+23. Ranksum p-values of motif CPEB1_HUMAN.H10MO.D top 218 seqs (left,right,twotailed): 1 8.405e-06 1.681e-05 U-value: 1.81e+04 (Corrected p-values: 1 0.005373 0.005373)
+24. Ranksum p-values of motif PURA_HUMAN.H10MO.D top 218 seqs (left,right,twotailed): 1 9.572e-06 1.914e-05 U-value: 1.814e+04 (Corrected p-values: 1 0.006117 0.006117)
+25. Ranksum p-values of motif SRBP2_HUMAN.H10MO.B top 218 seqs (left,right,twotailed): 1 9.605e-06 1.921e-05 U-value: 1.814e+04 (Corrected p-values: 1 0.006138 0.006138)
+26. Ranksum p-values of motif ETS1_HUMAN.H10MO.C top 218 seqs (left,right,twotailed): 1 1.086e-05 2.171e-05 U-value: 1.818e+04 (Corrected p-values: 1 0.006934 0.006934)
+27. Ranksum p-values of motif SRBP1_HUMAN.H10MO.B top 218 seqs (left,right,twotailed): 1 1.264e-05 2.528e-05 U-value: 1.822e+04 (Corrected p-values: 1 0.008068 0.008068)
+28. Ranksum p-values of motif IRF2_HUMAN.H10MO.C top 218 seqs (left,right,twotailed): 1 1.384e-05 2.768e-05 U-value: 1.825e+04 (Corrected p-values: 1 0.008831 0.008831)
+29. Ranksum p-values of motif SMRC1_HUMAN.H10MO.D top 218 seqs (left,right,twotailed): 1 1.679e-05 3.358e-05 U-value: 1.830e+04 (Corrected p-values: 1 0.01071 0.01071)
+30. Ranksum p-values of motif GABPA_HUMAN.H10MO.A top 218 seqs (left,right,twotailed): 1 2.102e-05 4.203e-05 U-value: 1.837e+04 (Corrected p-values: 1 0.01338 0.01338)
+31. Ranksum p-values of motif TBX5_HUMAN.H10MO.D top 218 seqs (left,right,twotailed): 1 2.266e-05 4.532e-05 U-value: 1.84e+04 (Corrected p-values: 1 0.01442 0.01442)
+32. Ranksum p-values of motif ETV1_HUMAN.H10MO.B top 218 seqs (left,right,twotailed): 1 2.891e-05 5.782e-05 U-value: 1.847e+04 (Corrected p-values: 1 0.01836 0.01836)
+33. Ranksum p-values of motif EHF_HUMAN.H10MO.C top 218 seqs (left,right,twotailed): 1 3.506e-05 7.011e-05 U-value: 1.853e+04 (Corrected p-values: 1 0.02222 0.02222)
+34. Ranksum p-values of motif IRF4_HUMAN.H10MO.C top 218 seqs (left,right,twotailed): 1 3.808e-05 7.617e-05 U-value: 1.856e+04 (Corrected p-values: 1 0.02412 0.02412)
+35. Ranksum p-values of motif IRF9_HUMAN.H10MO.C top 218 seqs (left,right,twotailed): 0.9999 6.508e-05 0.0001302 U-value: 1.873e+04 (Corrected p-values: 1 0.04086 0.04086)
+36. Ranksum p-values of motif IRF1_HUMAN.H10MO.A top 218 seqs (left,right,twotailed): 0.9999 7.137e-05 0.0001427 U-value: 1.876e+04 (Corrected p-values: 1 0.04472 0.04472)
